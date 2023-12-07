@@ -1,0 +1,36 @@
+<!-- /calcunivap/html/index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/rodape.css"> <!-- Adicione esta linha para o arquivo rodape.css -->
+    <title>Calculadora de Média FEAU</title>
+</head>
+<body>
+    <div class="box">
+        <img src="/img/Universidade_do_Vale_do_Paraíba_logo.png" alt="" width="180">
+        <h1>Calculadora de Média FEAU</h1>
+        
+        <form id="calculatorForm">
+            <label for="grade1">Nota 1:</label>
+            <input type="number" id="grade1" required>
+
+            <label for="grade2">Nota 2:</label>
+            <input type="number" id="grade2" required>
+
+            <button type="button" onclick="calculateAverage()">Calcular Média</button>
+        </form>
+
+        <div id="result"></div>
+
+        <!-- Adicione esta div para a mensagem Parabéns! -->
+        <div id="parabensMessage" style="display: none; color: green; font-weight: bold;">Parabéns!</div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Igor Simões. Todos os direitos reservados.</p>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>
