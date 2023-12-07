@@ -16,5 +16,5 @@ window.onload = function () {
 
 function voltarParaIndex() {
     // Redirecionar de volta para index.html
-    window.location.href = '/html/index.html';
+    window.location.href = '/index.html';
 }

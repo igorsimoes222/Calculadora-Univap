@@ -29,7 +29,7 @@ function calculateAverage() {
         localStorage.setItem('notaFaltante', notaFaltante.toFixed(2));
 
         // Redirecionar para a página do exame
-        window.location.href = '/html/exame.html';
+        window.location.href = '/exame.html';
     } else {
         // Se a média for 5 ou maior, exibir a mensagem de parabéns
         const parabensMessage = document.getElementById("parabensMessage");
@@ -42,7 +42,7 @@ function calculateAverage() {
 
 function entrar() {
     // Redirecionar para o index.html
-    window.location.href = '/html/index.html';
+    window.location.href = '/index.html';
 }
 function ajudaViaPix() {
     // Exibir o QR code (imagem) abaixo do botão
