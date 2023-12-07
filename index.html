@@ -1,0 +1,36 @@
+<!-- /calcunivap/html/index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/rodape.css">
+
+    <title>Bem vindo</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Bem-vindo à Calculadora de Média FEAU</h1>
+
+        <button onclick="entrar()">Entrar</button>
+
+        <div class="arrecadacao">
+            <h2>Arrecadação - Ajuda pelo serviço</h2>
+
+            <div class="aba" onclick="ajudaViaPix()">Fazer uma Ajuda via Pix</div>
+            <img id="qrcode" src="/img/qrcode.jpg" alt="QR Code" style="display: none; max-width: 100%;" width="400">
+            <div id="copiarContainer" style="display: none;">
+                <textarea id="codigoCopiar" readonly></textarea>
+                <button onclick="copiarCodigo()">Copiar Código</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Igor Simões. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
